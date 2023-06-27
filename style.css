@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+}
+.main-bg{
+    background-color: rgb(2, 2, 2);
+    width: 100%;
+    height: 4455px;
+}
+.bg-img{
+    background-image: linear-gradient(to top, rgb(4, 4, 5)10%,rgba(0, 0, 0, 0.7)90%),url(Netflix-new-image.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    width: 49.7%;
+    height: 78px;
+    float: left;
+}
+.language{
+    width: 50%;
+    height: 78px;
+    float: left;
+}
+#logo-name{
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 150px;
+}
+#sign-btn{
+    float: right;
+    margin-top: 30px;
+    margin-right: 150px;
+    height: 32px;
+    width: 75px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+#sign-btn:hover{
+    background-color: rgb(204, 37, 37);
+}
+#select{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 115px;
+    height: 33px;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lang-option{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.section-one{
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+#headline{
+    color: #fff;
+    font-size: 70px;
+    margin-top: 10%;
+    margin-left: 190px;
+    font-family: Arial;
+}
+#content{
+    margin-left: 190px;
+    font-size: 20px;
+    color: #fff;
+}
+.email-section{
+    width: 77%;
+    height: 120px;
+    border: 5px solid red;
+    margin-top: 100px;
+    margin-left: 170px;
+    background-color: rgb(2, 2, 36);
+    border-radius: 10px;
+}
+.email-section-para{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px; 
+}
+#email{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 290px;
+    height: 31px;
+    border-radius: 3px;
+    background: rgb(34, 32, 32);
+    border: 0.5px solid rgb(70, 69, 69);
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.email-section-start-btn{
+    height: 37px;
+    width: 130px;
+    background-color: rgb(252, 37, 37);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.email-section-start-btn:hover{
+    background-color: rgb(255, 1, 1);
+}
+.section-two{
+    width: 93%;
+    height: 1890px;
+    background: rgb(12, 12, 37);
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 700px; 
+}
+.section-two-box{
+    width: 100%;
+    height: 470px;
+}
+.inner-box1{
+    width: 45%;
+    height: 400px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.inner-box2{
+    width: 44%;
+    height: 400px;
+    float: left;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+.last-headding{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 90px;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.last-para{
+    margin-left: 30px;
+    color: #fff;
+    font-family: Arial;
+}
+.img-1{
+    margin-left: 30px;
+    width: 90%;
+    height: 400px;
+}
+.last-line{
+    width: 78%;
+    height: 970px;
+    margin-left: 160px;
+    margin-top: 250px;
+}
+#last-heading{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: arial;
+    text-align: center;
+}
+.last-same{
+    width: 100;
+    height: 95px;
+    margin-top: 10px;
+    border: 1px solid rgb(37, 37, 83);
+    background-color: rgb(37, 37, 83);
+    cursor: pointer;
+}
+.last-same:hover{
+    background-color: rgb(57, 57, 105);
+}
+.last-sentence{
+    margin-left: 35px;
+    margin-top: 35px;
+    color: white;
+    font-size: 25px;
+    font-family: arial;
+}
+.last-para1{
+    color: #fff;
+    font-size: 20px;  
+    margin-top: 30px;
+    font-family: Arial; 
+}
+.last-email-section{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 70px;
+}
+.last-email{
+    width: 350px;
+    height: 50px;
+    border-radius: 3px;
+    background: rgb(34, 32, 32);
+    border: 0.5px solid rgb(70, 69, 69);
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    margin: 0;
+}
+.last-emailsection-btn{
+    height: 55px;
+    width: 190px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+}
+#hr-footer{
+    border: 5px solid rgb(49, 41, 41);
+}
+.footer-div{
+    width: 70%;
+    height: 500px;
+    margin-left: 150px;
+    color: #888282;
+    font-family: Arial;
+    margin-top: 50px;
+}
+.footer-heading-section{
+    width: 100%;
+    height: 80px;
+}
+li{
+    list-style-type: none;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.footer-list1{
+    width: 33%;
+    height: 233px;
+    float: left;
+}
+.footer-list2{
+    width: 33%;
+    height: 233px;
+    float: left;
+}
+.footer-list3{
+    width: 33.3%;
+    height: 233px;
+    float: left; 
+}
+.footer-language{
+    width: 100%;
+    height: 150px;
+    margin-top: 236px;  
+}
+#footer-language{
+    width: 150px;
+    height: 45px;
+    background: transparent;
+    color: #888282;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.footer-para{
+    color: #888282;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
